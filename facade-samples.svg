@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="300" viewBox="0 0 700 300" fill="none" role="img" aria-labelledby="samples-title">
+  <title id="samples-title">Фактурные образцы фасадной плитки</title>
+  <defs>
+    <linearGradient id="stone" x1="0" y1="0" x2="200" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F2EFE7"/>
+      <stop offset="1" stop-color="#D8D5C9"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7C9B4"/>
+      <stop offset="1" stop-color="#B9AA92"/>
+    </linearGradient>
+    <linearGradient id="slate" x1="0" y1="0" x2="200" y2="170" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6E817B"/>
+      <stop offset="1" stop-color="#405D57"/>
+    </linearGradient>
+    <pattern id="speckle" width="37" height="29" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="7" r=".7" fill="#4D6157" opacity=".12"/>
+      <circle cx="21" cy="17" r=".8" fill="#FFFFFF" opacity=".25"/>
+      <path d="m28 8 4 1m-18 13 3 1" stroke="#647262" stroke-width=".6" opacity=".15"/>
+    </pattern>
+    <filter id="shadow" x="-25%" y="-25%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="13" stdDeviation="13" flood-color="#193F35" flood-opacity=".13"/>
+    </filter>
+  </defs>
+  <ellipse cx="377" cy="251" rx="249" ry="20" fill="#244A3C" opacity=".045"/>
+  <g transform="translate(423 47) rotate(11 100 100)" filter="url(#shadow)">
+    <path d="M0 12h188v178l-9 9H-9V21L0 12Z" fill="#344C46"/>
+    <rect width="188" height="188" rx="3" fill="url(#slate)"/>
+    <rect width="188" height="188" rx="3" fill="url(#speckle)"/>
+    <path d="M0 47h188M0 94h188M0 141h188M47 0v47m94 0v47M78 94v47m63 0v47" stroke="#304D46" stroke-width="3"/>
+    <path d="M2 2h184" stroke="#A2B4AA" opacity=".5"/>
+    <path d="m11 28 31 3m20 37 44-4m11 58 45 3M20 165l39-3" stroke="#AAB7A8" opacity=".15" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(263 38) rotate(-5 100 100)" filter="url(#shadow)">
+    <path d="M0 12h188v178l-9 9H-9V21L0 12Z" fill="#9B8C75"/>
+    <rect width="188" height="188" rx="3" fill="url(#sand)"/>
+    <rect width="188" height="188" rx="3" fill="url(#speckle)"/>
+    <path d="M0 47h188M0 94h188M0 141h188M94 0v47M47 47v47m94 0v47m-63 0v47" stroke="#A4957D" stroke-width="3"/>
+    <path d="M2 2h184" stroke="#F2EADD" opacity=".75"/>
+    <path d="m12 23 49 3m51-8 31 4m-71 48 44 2M18 120l51-5m37 47 55 5" stroke="#F1E8D7" stroke-width="2" opacity=".35" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(101 62) rotate(-13 100 100)" filter="url(#shadow)">
+    <path d="M0 12h188v178l-9 9H-9V21L0 12Z" fill="#B8B6AA"/>
+    <rect width="188" height="188" rx="3" fill="url(#stone)"/>
+    <rect width="188" height="188" rx="3" fill="url(#speckle)"/>
+    <path d="M0 47h188M0 94h188M0 141h188M63 0v47m63 0v47M63 94v47m63 0v47" stroke="#C6C4B8" stroke-width="3"/>
+    <path d="M2 2h184" stroke="#FFFDF8"/>
+    <path d="m12 19 29 4m40-7 57 5m-118 47 45-4m76 2 30 4M16 115l23 7m46-9 55 5m-113 44 58 6m56-7 28 5" stroke="#C6C4B6" stroke-width="1.2" opacity=".5" stroke-linecap="round"/>
+    <path d="m31 33 13-3m61 54 47-5M84 131l44 1m-26 39 11 3" stroke="#FFFFFF" stroke-width="2" opacity=".5" stroke-linecap="round"/>
+  </g>
+</svg>
